@@ -1,0 +1,86 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        "protothon2021webflowio-nero": "#fff",
+        "protothon2021webflowio-flamingo": "#f1423c",
+        "protothon2021webflowio-vanilla-ice": "#f1d3d2",
+        "protothon2021webflowio-charade": "#20222c",
+        "protothon2021webflowio-tundora": "#444",
+      },
+      spacing: {},
+      fontFamily: {
+        "protothon2021webflowio-inter-regular-128": "Inter",
+        "protothon2021webflowio-nunito-sans-bold-16": "'Nunito Sans'",
+      },
+      borderRadius: {
+        "10xs": "3px",
+        xl: "20px",
+      },
+    },
+    fontSize: {
+      "smi-8": "12.8px",
+      "smi-7": "12.7px",
+      smi: "13px",
+      "sm-1": "13.1px",
+      "mini-8": "14.8px",
+      "mini-6": "14.6px",
+      "10xl-9": "29.9px",
+      "5xl": "24px",
+      base: "16px",
+      "mini-5": "14.5px",
+      "16xl-2": "35.2px",
+      "2xl": "21px",
+      "9xl": "28px",
+      "mini-9": "14.9px",
+      "16xl-3": "35.3px",
+      "smi-5": "12.5px",
+      mini: "15px",
+      "sm-2": "13.2px",
+      "smi-9": "12.9px",
+      "base-3": "16.3px",
+      "7xl-9": "26.9px",
+      "base-1": "15.1px",
+      "smi-4": "12.4px",
+      "7xl-4": "26.4px",
+      "10xl-8": "29.8px",
+      "base-7": "16.7px",
+      mid: "17px",
+      "base-6": "16.6px",
+      "base-2": "16.2px",
+      "base-5": "16.5px",
+      "base-9": "16.9px",
+      "10xl-1": "29.1px",
+      "2xl-8": "21.8px",
+      "2xl-6": "21.6px",
+      "15xl-3": "34.3px",
+      "8xl": "27px",
+      "10xl-6": "29.6px",
+      "26xl": "45px",
+      "17xl": "36px",
+      inherit: "inherit",
+    },
+    screens: {
+      lg: {
+        max: "1200px",
+      },
+      mq1050: {
+        raw: "screen and (max-width: 1050px)",
+      },
+      mq750: {
+        raw: "screen and (max-width: 750px)",
+      },
+      mq450: {
+        raw: "screen and (max-width: 450px)",
+      },
+    },
+  },
+  corePlugins: {
+    preflight: false,
+  },
+};
