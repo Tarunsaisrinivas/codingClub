@@ -7,7 +7,7 @@ const Container1 = ({ className = "" }) => {
     >
       <div className="h-px w-px relative hidden" />
       <img
-        className="h-[489.6px] flex-1 relative max-w-full overflow-hidden object-cover min-w-[320px] z-[1]"
+        className="h-full flex-1 relative max-w-full overflow-hidden object-cover min-w-[320px] z-[1]"
         loading="lazy"
         alt=""
         src="/6001efccedd3967fd7abef4f-valentines20logo20with20no20paddingpng@2x.png"
@@ -25,7 +25,7 @@ const Container1 = ({ className = "" }) => {
             <div className="relative text-base-5 leading-[22px]">
               February 13, 2021 – February 14, 2021
             </div>
-            <div className="h-[72px] relative text-mini-8 leading-[24px] flex items-center">
+            <div className="h-full relative text-mini-8 leading-[24px] flex items-center">
               <span>
                 <p className="m-0">
                   Test your rapid prototyping and design thinking
@@ -37,11 +37,9 @@ const Container1 = ({ className = "" }) => {
               </span>
             </div>
           </div>
-          <div className="shadow-[-3px_-2px_1px_rgba(0,_0,_0,_0.15)] bg-protothon2021webflowio-flamingo flex flex-row items-start justify-start py-[9px] px-[15px] text-base text-protothon2021webflowio-nero font-protothon2021webflowio-nunito-sans-bold-16">
-            <b className="relative leading-[22px] inline-block min-w-[78px]">
-              REGISTER
-            </b>
-          </div>
+          <button className="shadow-lg hover:cursor-default bg-protothon2021webflowio-flamingo flex flex-row items-center justify-center py-2 px-4 text-base text-protothon2021webflowio-nero font-protothon2021webflowio-nunito-sans-bold">
+            <b className="relative leading-5">REGISTER</b>
+          </button>
         </div>
       </div>
       <div className="h-px w-px relative hidden" />

@@ -16,6 +16,7 @@ const Container = ({
         alt=""
         src={container}
       />
+      
       <div className="flex flex-col items-start justify-start shrink-0">
         <b className="relative leading-[20px] inline-block min-w-[94px]">
           {michelleYu}

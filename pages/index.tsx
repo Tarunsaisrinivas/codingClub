@@ -7,7 +7,7 @@ const Protothon2021webflowioByHt = () => {
   return (
     <div className="w-full h-[900px] relative bg-protothon2021webflowio-nero overflow-y-auto flex flex-col items-start justify-start pt-[5px] px-0 pb-0 box-border gap-[40px] leading-[normal] tracking-[normal] text-left text-10xl-9 text-protothon2021webflowio-charade font-protothon2021webflowio-inter-regular-128 mq750:gap-[20px] mq1050:h-auto">
       <Page />
-      <div className="self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-[2789px] box-border max-w-full shrink-0 lg:pb-[1178px] lg:box-border mq750:pb-[766px] mq750:box-border">
+      <div className="self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-0 box-border max-w-full shrink-0 lg:pb-0 lg:box-border mq750:pb-0 mq750:box-border">
         <div className="h-[790px] w-[940px] flex flex-col items-start justify-start pt-0 px-0 pb-[300.4px] box-border gap-[80px] shrink-0 max-w-full lg:pb-[127px] lg:box-border mq450:pb-[54px] mq450:box-border mq750:gap-[20px] mq1050:h-auto mq1050:gap-[40px] mq1050:pb-[83px] mq1050:box-border">
           <Container1 />
           <div className="self-stretch flex flex-col items-start justify-start shrink-0 max-w-full">
@@ -30,7 +30,7 @@ const Protothon2021webflowioByHt = () => {
                 </p>
               </div>
             </div>
-            <div className="w-full flex flex-row flex-wrap items-start justify-start pt-0 px-0 pb-[114px] box-border gap-[33.4px] max-w-[940px] mq750:gap-[17px] mq1050:max-w-full">
+            <div className="w-full flex flex-row flex-wrap items-start justify-start pt-0 px-0 pb-0 box-border gap-[33.4px] max-w-[940px] mq750:gap-[17px] mq1050:max-w-full">
               <div className="h-px w-px relative hidden" />
               <div className="flex-1 flex flex-col items-start justify-start pt-[124px] px-0 pb-0 box-border min-w-[296px] max-w-full">
                 <div className="self-stretch flex flex-col items-start justify-start gap-[10px] max-w-full">
@@ -85,7 +85,7 @@ const Protothon2021webflowioByHt = () => {
               </div>
               <div className="h-px w-px relative hidden" />
             </div>
-            <div className="w-full flex flex-row items-end justify-start pt-0 px-0 pb-[30px] box-border gap-[8.8px] max-w-[940px] mq1050:flex-wrap mq1050:max-w-full">
+            <div className="w-full flex flex-row items-end justify-start pt-0 px-0 pb-0 box-border gap-[8.8px] max-w-[940px] mq1050:flex-wrap mq1050:max-w-full">
               <div className="h-px w-px relative hidden" />
               <div className="flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-[114px] box-border min-w-[334px] min-h-[226px] max-w-full">
                 <div className="self-stretch flex flex-col items-start justify-start gap-[10px] max-w-full">
